@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.6em;
+    margin:0px;
+    padding:0px;
+}
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.p1{
+    position: absolute;
+    top:50%;
+    left:25%;
+    width:50%;
+    text-align: center;
+    background-color:rgb(17,17,17);
+    color:#fff;
+    display:block;
+    font-size: 2.5em;
+    margin: auto;
+    padding: 0.5em;
+}
+.para1, .para2, .para3 {
+    top:97%;
+    background-color:rgb(35,35,35) ;
+}
+/* PARALLAX ARKA PLAN İÇİN */
+.container1, .container2, .container3{
+    position: relative;
+    min-height: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1{
+    background-image: url("./Image1.jpg");
+}
+.container2{
+    background-image: url("./Image2.jpg");
+}
+.container3{
+    background-image: url("./Image3.jpg");
+}
+.container1{
+    background-image: url("./Image1.jpg");
+}
+section{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    font-size: 1em;
+    padding:50px 80px;
+    background-color: rgb(35,35,35);
+}
+
+.row{
+    position: absolute; 
+    text-align: center;
+    top:50%;/*resimlerin altındaki paragraf ve sectionlar sayfada görünmemesi */ 
+    width:100%;
+}
+.row .text-transperent{
+    background-color: transparent;
+    font-size: 2em;
+    color: yellow;
+    font-weight: bold;
+}
+ 
